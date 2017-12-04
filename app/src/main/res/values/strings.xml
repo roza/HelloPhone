@@ -1,0 +1,7 @@
+<resources>
+        <string name="hello">Bonjour a vous tous de  HelloPhone!</string>
+        <string name="message">Cocher pour avoir la date</string>
+        <string name="app_name">HelloPhone</string>
+        <string name="bouton">bouton</string>
+        <string name="checkbox">une check box</string>
+</resources>

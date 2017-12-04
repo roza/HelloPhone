@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:textColor="@color/rouge" android:text="@string/hello" android:textSize="20px"/>
+
+    <Button android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton"
+        android:onClick="bouton">
+    </Button>
+    <AnalogClock android:id="@+id/AnalogClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></AnalogClock>
+
+    <CheckBox android:id="@+id/CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox">
+
+    </CheckBox>
+    <EditText android:id="@+id/EditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:textColor="@color/rouge"
+        android:width="500px">
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" android:visibility="invisible" android:text="@string/hello">
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
